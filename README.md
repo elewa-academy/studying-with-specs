@@ -12,7 +12,9 @@ To get the most out of this lesson, we recommend you follow these steps:
 	3. Hide the original code and try to rebuild it in my-code-X.js using only your specs.
 	5. Take some notes on what you just learned. Be sure to note what changed from the last version and what that change did for the application. Then move on to the next folder.
   
-By the time you're finished, you'll have learned a few tricks for building clean projects.  More importantly, I hope you'll have a new appreciation for how helpful specs can be.
+By the time you're finished, you'll have learned a few tricks for building clean projects.  More importantly, I hope you'll have a new appreciation for how helpful specs can be.  
+  
+(This lesson is featured in a [post from our blog](http://elewa.education/2018/01/26/studying-with-specs/))
 
 ___
 ___
