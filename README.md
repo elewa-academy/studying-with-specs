@@ -1,5 +1,5 @@
 # TIC TAC TOE refactor
-This series of mini-projects builds up to a [uselessly simple tictactoe board](https://elewa-academy.github.io/studying-with-specs).  But that's fine, we're only here to learn.  
+This series of mini-projects builds up to a [uselessly simple tictactoe board](https://elewa-academy.github.io/studying-with-specs).  But that's fine, we're only here to learn.  To get the most out of this lesson you should have a basic understanding of javascript functions, arrays and DOM manipulation.
 
 To get the most out of this lesson, we recommend you follow these steps:  
   
