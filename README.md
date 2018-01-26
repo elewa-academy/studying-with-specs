@@ -1,8 +1,8 @@
 # TIC TAC TOE refactor
-This series of mini-projects builds up to a [uselessly simple tictactoe board](https://elewa-academy.github.io/studying-with-specs).  You're probably thinking "Guh. Why another tictactoe?".   Well, becuase you probably know how to play already and maybe even wrote your own tictactoe app before.  Hopefully this means you'll be able to spend more time thinking about specs and good programming, and not so much time figuring out what you're supposed to be making.  We're all here to learn after all.
+This series of mini-projects builds up to a [uselessly simple tictactoe board](https://elewa-academy.github.io/studying-with-specs).  You're probably thinking "Guh. Why another tictactoe?".   Well, becuase you probably know how to play already and maybe even wrote your own tictactoe app before.  Hopefully this means you'll be able to spend more time thinking about specs and good programming, and not so much time figuring out what you're supposed to be making.  We're all here to learn after all.  
 To get the most out of this lesson you should have a basic understanding of javascript functions, arrays and DOM manipulation.
 
-To get the most out of this lesson, we recommend you follow these steps:  
+We recommend you follow these steps:  
   
 0. Set up your dev environment: clone this repo, open it in your favorite text editor, and get your browser ready.  Set aside at least a half-hour to get your head in the game.  To learn the most from these examples  you need to study them in a very special way, it'll take a little getting-used-to but it's totally worth your time.
 1. Read up on specs [right here](https://github.com/elewa-academy/studying-with-specs/blob/master/0-how-to-use-these/0-what-are-specs.md).
