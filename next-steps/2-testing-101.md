@@ -21,6 +21,7 @@ The first part of this lesson will cover testing fundamentals culminating in the
 4. [Test Suites](#all-together-now)
   
 The second part of this lesson will give some ideas for incorporating testing into your dev process, and introduce our favorite testing framework:  
+
 5. [BDD, TDD](#bdd-and-tdd)  
 6. [Minimal Passing Functions](#minimal-passing-functions)  
 7. [Gradual Refactoring](#gradual-refactoring)  
@@ -134,10 +135,10 @@ function test_6_division(testee) { // 0, non-0
 [TOP](#testing-101)
 ___
 ## Unit Tests
-The __Unit Test__ is what ties this all together.   It's no huge conceptual leap forward, but it makes life a lot easier.  
+The __Unit Test__ is what ties all these cases together, each unit test tests one unit of code. In this case we're testing the division function.   It's no huge conceptual leap forward, but it makes life a lot easier.  
 This one isn't a pure function, what would you have to change to make it one?
 ```javascript
-function division_test_suite(testee) {
+function division_unit_test(testee) {
 	var result = [];
 	if(test_1_division(testee)) {  // +/+
 		result.push('PASS +/+');
@@ -177,9 +178,9 @@ function division_test_suite(testee) {
 ___
 ## Next Level Unit Test
 
-If you're a real programmer you'll be annoyed by all the repetition in the above testing suite. 
+If you're a real programmer you'll be annoyed by all the repetition in the unit test above. 
 
-figure out how to use all this stuff:
+figure out how all this world:
 
 ```javascript
 function unit_test(testee, args, expected) {
@@ -226,11 +227,11 @@ function result_interpreter(test_results, test_cases) {
 [TOP](#testing-101)
 ___
 ## Minimal Passing Functions
-You've just seen testing suites and heard of B/Tdd, but how does it all happen?
+You've just seen unit tests and have probably heard of B/TDD, but how does it all happen?
 
-Testing suites in conjuntion with _minimal passing functions_ can be used to organize your development process, helping you to make sure you aren't overcomplicating your work or taking any unnecessary detours.  
+Unit tests in conjuntion with _minimal passing functions_ can be used to organize your development process helping you to catch bugs, keep your code simple and on task, and to make sure you aren't overcomplicating your life.  
 
-This is the heart of the *DD development philosophies. 
+This is the heart of the B/TDD development philosophies. 
 
 A minimal passing function is just the simplest possible function that will pass it's unit test.  To the point of uselessness.  The example below contains a unit test and a simplest passing function for addition:
  
@@ -250,9 +251,9 @@ function addition(a, b) {
 	return 9;
 };
 ```
-This minimal function seems useless, it just returns the right answer!  A simplest passing function will do nothing but pass the test.   That's the goal in *DD. If the test asks for an array, the function returns an array.  If the test asks for 'Chlotilde', the function returns 'Chlotilde'.  If the test asks to salt and hash a user's password, that's what it does.
+This minimal function seems useless, it just returns the right answer!  A simplest passing function will do nothing but pass the test.   That's the goal in B/TDD. If the test asks for an array, the function returns an array.  If the test asks for 'Chlotilde', the function returns 'Chlotilde'.  If the test asks to salt and hash a user's password, that's what it does.
 
-Once a function passes one test, you refactor it a bit to pass more tests and to be better code.  Test it again.  Refactor. Repeat, and you're on your way to *DD.
+Once a function passes one test, you refactor it a bit to pass more tests and to be better code.  Test it again.  Refactor. Repeat, and you're on your way to B/TDD.
 
 [TOP](#index)
 ___
@@ -306,13 +307,13 @@ Using unit tests and minimal functions probably won't come naturally.  Here are 
         ```
         (It's important that you only modify the single piece of code while on it's branch. If you planned well from the beginning it shouldn't depend on anything else to pass it's tests)
     3. After the branch is finished, merge it back into master.
-4. Launch first version, and continue *DD on a meta (application and users) level.
+4. Launch first version and continue on to the next, repeating this process.
 
 [TOP](#testing-101)
 ___
 ## BDD and TDD
 
-The *DD methods of development require you to plan before and while you write code - always a good thing. There are many flavors of *DD, here are two of the most popular:
+The 'DD methods of development require you to plan before and while you write code - always a good thing. There are many flavors of 'DD, here are two of the most popular:
 
 ### Test Driven Development
 TDD is the practice of writing tests for your code at the same time as your write your code.  [Here's Uncle Bob to explain it better.](http://butunclebob.com/ArticleS.UncleBob.TheThreeRulesOfTdd)
