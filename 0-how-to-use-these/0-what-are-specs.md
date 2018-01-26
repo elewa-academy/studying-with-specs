@@ -9,7 +9,7 @@ Writing and reading specifications is one of the most important skills in softwa
 * ... and many, many more 
 
 
-Below is a short example-based guide to reading and writing specs using 3 snippets of code. Each section will contain a code sample, a spec for that sample, and a generalized spec for that type of code snippet. 
+Below is a short example-based guide to reading and writing specs using 3 snippets of code. Each section will contain a code sample, a spec for that sample, and a generalized spec for that type of code snippet. (to you picky programmers, [specs](http://searchsoftwarequality.techtarget.com/definition/functional-specification) are really complicated that what's in this markdown.  this is just an introduction to help you start on your way to learning real functional specifications.)
 * [A pure function](#pure-functions)
 * [An object literal w/o methods](#object-literals-without-methods)
 * [An object literal w/ methods](#object-literals-with-methods)
