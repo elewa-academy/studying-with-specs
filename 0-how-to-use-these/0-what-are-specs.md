@@ -156,7 +156,7 @@ General spec for object literal w/ methods:
 
 ### Practice Writing
 
--- coming soon --
+Move on through the rest of this repo!
  
 
 
