@@ -10,7 +10,7 @@ There are four steps to study-speccing, and they are:
 3: put away the original code and write "empty code" for your specs.   
 4: fill in your empty code.  don't look at the original code! 
   
-In this folder you'll find an introduction to specs, and an example of all four study steps.
+In this folder you'll find an introduction to specs, and an example of all four study steps.  This isn't the simplest example, the code in this lesson will be less complicated.
 
 Happy learning!
 
