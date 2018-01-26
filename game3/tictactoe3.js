@@ -1,5 +1,5 @@
 // game 3 will 
-// 	have populateBoard from 1d array
+// 	have populateBoard function that uses our 1d array
 
 var nextPlayer = true;
 
@@ -15,14 +15,14 @@ function play(box) {
 			boardState[box.id] = 'x';
 		} else {
 			boardState[box.id] = 'o';
-		}
+		};
 		nextPlayer = !nextPlayer;
 		// redraw board only if it was changed?
 		populateBoard();
 	} else {
 		alert('grow up. you can\'t do that')
 	};
-	// redraw board even if it wasn't changed?
+	// redraw board even if it wasn't changed? your call
 	// populateBoard();
 };
 

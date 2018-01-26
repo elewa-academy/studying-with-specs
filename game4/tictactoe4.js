@@ -1,5 +1,5 @@
 // game 4 will
-// 	have nested arrays -> use elem.getAttribute()
+// 	have nested arrays to store state
 // 	a populateBoard function that writes the boardState into the html
 // 	each td will have a 'row' and a 'column' attribute
 
@@ -20,7 +20,7 @@ function play(box) {
 			boardState[row][column] = 'x';
 		} else {
 			boardState[row][column] = 'o';
-		}
+		};
 		nextPlayer = !nextPlayer;
 		// redraw board only if it was changed?
 		populateBoard();

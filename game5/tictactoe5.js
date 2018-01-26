@@ -1,5 +1,5 @@
 // game 5 will
-// 	like 4 but with 'row' on the 'tr'
+// 	like 4 but with a 'row' attribute on the 'tr's.  for better looping
 
 var nextPlayer = true;
 
@@ -17,7 +17,7 @@ function play(box) {
 			boardState[row][column] = 'x';
 		} else {
 			boardState[row][column] = 'o';
-		}
+		};
 		nextPlayer = !nextPlayer;
 		// did someone win? 
 		// if they did, change the state and redraw

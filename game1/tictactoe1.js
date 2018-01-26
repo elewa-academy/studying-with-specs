@@ -10,6 +10,6 @@ function play(box) {
 		box.innerHTML = 'x';
 	} else {
 		box.innerHTML = 'o';
-	}
+	};
 	nextPlayer = !nextPlayer;
 }

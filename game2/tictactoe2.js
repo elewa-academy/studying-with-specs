@@ -1,5 +1,5 @@
 // game 2 will
-// 	store game state in a variable.  array
+// 	store game state in a variable.  (array)
 // 	not allow players to play the same square twice
 // 	x and o should alternate
 // 	console log the board

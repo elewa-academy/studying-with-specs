@@ -1,6 +1,6 @@
 // game 6 will
-// 	start with an empty board in the html and generate the board dynamically
-// 	have an on load listener to generate the first board
+// 	start with an empty "ticTacBoard" div in the html and generate the board dynamically
+// 	have an on load listener to generate the first board when the page is loaded
 
 
 var nextPlayer = true;
@@ -19,7 +19,7 @@ function play(box) {
 			boardState[row][column] = 'x';
 		} else {
 			boardState[row][column] = 'o';
-		}
+		};
 		nextPlayer = !nextPlayer;
 		// did someone win? 
 		// if they did, change the state and redraw
