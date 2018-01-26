@@ -23,3 +23,4 @@ var calcFancy = {
 }
 
 // using the specs, reconstruct everything but the initial values and the logic needed to implement the method's behviors
+// notice how easy the specs make it to build well-structured code with helpful comments
