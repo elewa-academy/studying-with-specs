@@ -1,5 +1,5 @@
 # TIC TAC TOE refactor
-This series of mini-projects builds up to a [uselessly simple tictactoe board](https://github.com/elewa-academy/studying-with-specs/tree/master).  But that's fine, we're only here to learn.  
+This series of mini-projects builds up to a [uselessly simple tictactoe board](https://elewa-academy.github.io/studying-with-specs).  But that's fine, we're only here to learn.  
 
 To get the most out of this lesson, we recommend you follow these steps:
 0. Set up your dev environment: clone this repo, open it in your favorite text editor, and get your browser ready.Set aside at least a half-hour to get your head in the game.  To learn the most from these examples  you need to study them in a very special way, it'll take a little getting-used-to but it's totally worth your time.
