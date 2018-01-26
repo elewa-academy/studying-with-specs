@@ -344,3 +344,7 @@ ___
   
 * [Simplest Passing Functions](https://github.com/jankeLearning/content-code/tree/master/Week%2001/simplestPassingFuncs)  
 * [RMurphey's JS-Assessment](https://github.com/rmurphey/js-assessment)
+  
+___
+___
+### <a href="http://elewa.education/blog" target="_blank"><img src="https://user-images.githubusercontent.com/18554853/34921062-506450ae-f97d-11e7-875f-6feeb26ad72d.png" width="100" height="40"/></a>
