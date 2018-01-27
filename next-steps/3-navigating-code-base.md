@@ -38,7 +38,7 @@ ___
 * [code search engine](https://cs.chromium.org)
 ___
 ### Project
-[Inside Express](https://github.com/jankeLearning/projects/tree/master/06-inside-express)
+[Inside Express](https://github.com/jankeLearning/projects/tree/master/06-inside-express) - (work in progress)
 ___
 ### Counterpoint
 
