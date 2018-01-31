@@ -8,7 +8,7 @@ This lesson is a small practical guide this skill.  For a look at the bigger pic
 ### Index
 * [constraints](#constraints)   
 * [analysis first](#analysis-first)
-* [decomposition](#decomposition)
+* [problem decomposition](#problem-decomposition)
 * [common constraints](#common-constriants)  
 * [collaboration process](#collaboration-process)  
 * [studying like this](#studying-with-constraints) 
@@ -47,7 +47,7 @@ This list is long and it's not even near comprehensive.  Rather than looking it 
 
 
 Some common constraints when developing software:
-* The audiences:
+* [The three audiences](http://elewa.education/2018/01/25/carving-thoughts-code/):
   * A user must understand your applicaiton.
   * Developers must understand your code.
   * Computers must run your code.
@@ -83,7 +83,7 @@ Some common constraints when developing software:
 
 [TOP](#index)
 ___
-## Decomposition
+## Problem Decomposition
 
 Problem decomposition is central to problem solving.  Being able to look at a large problem and understand it as many small problems strung together will make you a better human.  
 
@@ -96,7 +96,7 @@ Some of many advantages:
   
 I'm sure there are more benefits to breaking down large problems, but these should be enough to convince you.  
 
-Getting good at this will just take practice.    
+Getting good at this will take practice.    
   
   
 [TOP](#index)

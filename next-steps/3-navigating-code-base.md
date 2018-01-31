@@ -1,5 +1,7 @@
 # Navigating Codebase
 
+ > “Truth can only be found in one place: the code.” - _Robert Martin_
+
 In you developer life you'll use more of other people's code than your own.  Your ability to choose and compare open source libraries will be crucial.  This isn't easy.  You need to balance features, community, documentation, opinion, ... the list goes on.  All that will come with experience.
 
 Before any other skills, you need to know how to navigate codebase.  Documentation is good, wikis are nice, communities are helpful, but they are all built to support a living codebase.  Eight hours into a bug there will be no more helpful documentation or Q/A's that you haven't read, your only hope will to be going into a library's GitHub repo and sifting through the codebase my hand. 
@@ -21,7 +23,7 @@ Here's a few resources, find the one that works for you.
 
 The best resoure of all: 
 * Your own experience.  Read a lot of source code.  
-* Throw away all of your books and print the Express source code.
+* Throw away all of your books and print the Express.js source code.
 ___
 ### What to read
 
@@ -36,7 +38,7 @@ ___
 * [code search engine](https://cs.chromium.org)
 ___
 ### Project
-[Inside Express](https://github.com/jankeLearning/projects/tree/master/06-inside-express)
+[Inside Express](https://github.com/jankeLearning/projects/tree/master/06-inside-express) - (work in progress)
 ___
 ### Counterpoint
 
