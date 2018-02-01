@@ -5,7 +5,7 @@ The primary learning objective for this lesson is to understand how to use detai
 
 We recommend you follow these steps:  
   
-0. Set up your dev environment: clone this repo, open it in your favorite text editor, and get your browser ready.  Set aside at least a half-hour to get your head in the game.  To learn the most from these examples  you need to study them in a very special way, it'll take a little getting-used-to but it's totally worth your time.
+0. Set up your dev environment: fork or clone this repo, open it in your favorite text editor, and get your browser ready.  Set aside at least a half-hour to get your head in the game.  To learn the most from these examples  you need to study them in a very special way, it'll take a little getting-used-to but it's totally worth your time.
 1. Read up on specs [right here](https://github.com/elewa-academy/studying-with-specs/blob/master/0-how-to-use-these/0-what-are-specs.md).
 2. Read through [/0-how-to-use-these](https://github.com/elewa-academy/studying-with-specs/tree/master/0-how-to-use-these).  This folder explains the best way to study this series of projects.
 3. Then for each /gameX folder you should:
