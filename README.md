@@ -17,7 +17,7 @@ We recommend you follow these steps:
 By the time you're finished, you'll have learned a few tricks for building clean projects.  More importantly, I hope you'll have a new appreciation for how helpful specs can be.  
 
 Challenge:
-Refactor your tictactoe series into a production-style repo.  Study [Studentius Ficticious's repo](https://github.com/elewa-student/tic-tac-toe/tree/master) for inspiration.
+* Refactor your tictactoe series into a production-style repo.  Study [Studentius Ficticious's repo](https://github.com/elewa-student/tic-tac-toe/tree/master) for inspiration.
   
 (This lesson is featured in a [post from our blog](http://elewa.education/2018/01/26/studying-with-specs/))
 
