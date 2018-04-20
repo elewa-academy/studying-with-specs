@@ -1,0 +1,20 @@
+// game 2 will
+// 	store game state in a variable.  (array)
+// 	not allow players to play the same square twice
+// 	x and o should alternate
+// 	console log the board
+
+nextPlayer: Boolean
+  initialized: true
+  
+boardState: Array
+  Initialized: 9 nulls
+  
+play: Function
+  Args: 1
+    box: The dom element clicked
+  Return: undefined
+  Behavior: Checks to see if the box clicked is empty, alerts the user
+    if it is, and writes and updates boardState if it's not played. 
+    It will alternate between x's and o's. Displays boardstate for the user in 
+    the console
