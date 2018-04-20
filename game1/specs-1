@@ -7,5 +7,5 @@ play: Function
       passed in to the onclick functoin
   return: undefined
   behavior: takes the box, and writes an x or o into the box
-      depending on who nextPlayer is
+      depending on who nextPlayer is. Then toggles next-player
       
