@@ -1,0 +1,11 @@
+nextPlayer: Boolean
+  initialized: true
+  
+play: Function
+  args: 1
+    box: DOM object.  It's the dom object clicked, 
+      passed in to the onclick functoin
+  return: undefined
+  behavior: takes the box, and writes an x or o into the box
+      depending on who nextPlayer is. Then toggles next-player
+      
